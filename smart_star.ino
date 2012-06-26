@@ -22,7 +22,7 @@
 #define STEPS 32
 
 // Update these with values suitable for your network.
-byte mqtt_server[] = { 192, 168, 0, 23 };
+byte mqtt_server[] = { 192, 168, 0, 12 };
 int mqtt_port = 1883;
 
 const int lights[] = {5, 6, 7}; // Arduino pins that will control the light relays
